@@ -133,7 +133,7 @@ for epoch in range(n_epochs):
     
         output = model(data)
         
-        output = output.squeeze(1)
+        #output = output.squeeze(1)
         
         loss = criterion(output, target)
         
